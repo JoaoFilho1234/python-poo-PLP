@@ -1,5 +1,11 @@
+from Pessoa import Pessoa
 class Aluno(Pessoa):
     
-    def __init__(self, nota):
+    #Tem nome e NOta
+    def __init__(self, nome):
+        self.nome = nome
+    
+    def notas (self, nota):
         self.nota = nota
+    
     
